@@ -1,0 +1,71 @@
+.card {
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: rgba(149, 157, 165, 0.1) 0px 5px 10px;
+    padding: 15px;
+    height: 76%;
+    nav {
+        display: flex;
+        align-items: start;
+        justify-content: space-between;
+        .title {
+            margin-bottom: 10px;
+            h2 {
+                font-size: 22px;
+                font-weight: 600;
+            }
+            p {
+                font-size: 14px;
+                color: #16c098;
+                font-weight: 400;
+            }
+        }
+        form {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+
+            input {
+                padding: 10px 20px;
+                border-radius: 10px;
+                border: none;
+                width: 210px;
+                background: #f9fbff;
+            }
+            select {
+                padding: 10px 20px;
+                border-radius: 10px;
+                border: none;
+                width: 170px;
+                background: #f9fbff;
+            }
+        }
+    }
+    footer {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px 0px;
+        border-top: 1px solid #ddd;
+        color: #9791b3;
+        font-size: 14px;
+        .flex {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            button {
+                width: 26px;
+                height: 26px;
+                border-radius: 4px;
+                border: none;
+                font-size: 18px;
+                font-weight: 900;
+                &:focus {
+                    outline: none;
+                    background: #5932ea;
+                    color: #fff;
+                }
+            }
+        }
+    }
+}

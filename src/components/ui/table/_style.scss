@@ -1,0 +1,40 @@
+.table {
+    width: 100%;
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        tr {
+            width: 100%;
+
+            &:hover {
+                background-color: #f9f9f9;
+            }
+            th,
+            td {
+                border-bottom: 1px solid #ddd;
+                padding: 8px;
+                text-align: left;
+                color: J#292D32;
+                font-size: 14px;
+                font-weight: 500;
+                line-height: 21px;
+
+                button {
+                    cursor: pointer;
+                    transform: translateX(60px);
+                    border-radius: 4px;
+                    & + {
+                        background-color: #dba064;
+                    }
+                }
+            }
+            th {
+                background-color: #ffffff;
+                color: #b5b7c0;
+                font-size: 14px;
+                font-weight: 500;
+                line-height: 21px;
+            }
+        }
+    }
+}
